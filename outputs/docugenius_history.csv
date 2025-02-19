@@ -1,0 +1,44 @@
+timestamp,query,answer,type
+2025-02-19 14:32:29,"Extract all named entities, their associated entities, attributes, and relationships. Present the extracted data in a structured table format","## Extracted Named Entities, Attributes, and Relationships
+
+| Entity Type          | Entity Name                     | Attribute(s)                               | Associated Entity(ies)                               | Relationship                                    |
+|----------------------|---------------------------------|-------------------------------------------|----------------------------------------------------|-------------------------------------------------|
+| Person               | Yeduguri Sandinti Rajasekhara Reddy | 14th Chief Minister of Andhra Pradesh, Politician | Andhra Pradesh, Lok Sabha, Andhra Pradesh Legislative Assembly | Served as Chief Minister, Elected to Lok Sabha & Assembly |
+| Location             | Andhra Pradesh                 | State in India                             | Yeduguri Sandinti Rajasekhara Reddy               | Reddy served as Chief Minister                  |
+| Location             | Kadapa                           | Constituency                               | Yeduguri Sandinti Rajasekhara Reddy               | Reddy elected from this constituency (Lok Sabha) |
+| Location             | Pulivendula                     | Constituency                               | Yeduguri Sandinti Rajasekhara Reddy               | Reddy elected from this constituency (Assembly)  |
+| Location             | Nallamala Forest area           | Location of helicopter crash                | Yeduguri Sandinti Rajasekhara Reddy               | Location of death                               |
+| Location             | Tiruvannamalai                  | Town in Tamil Nadu, India                  | Arunachalesvara Temple                           | Location of temple                              |
+| Location             | Tamil Nadu                       | State in India                             | Arunachalesvara Temple                           | Location of temple                              |
+| Location             | Arunachala hill                 | Hill in Tiruvannamalai                      | Arunachalesvara Temple                           | Location of temple                              |
+| Religious Entity     | Arunachalesvara Temple           | Hindu Temple, dedicated to Shiva, Pancha Bhuta Sthal (Fire) | Shiva, Parvati, Nayanars, Manikkavacakar, Sevappa Nayakar, Vijayanagara dynasty | Dedicated to, Built by, Associated with          |
+| Deity                | Shiva                           | God, represented by lingam (Agni lingam)     | Arunachalesvara Temple, Parvati                  | Worshipped in Arunachalesvara Temple             |
+| Deity                | Parvati                         | Consort of Shiva, depicted as Unnamulai Amman | Arunachalesvara Temple, Shiva                   | Consort of Shiva                                |
+| Person               | Nayanars                         | Tamil saint poets                           | Arunachalesvara Temple                           | Authors of Tevaram                             |
+| Person               | Manikkavacakar                   | 9th-century Shaiva saint poet              | Arunachalesvara Temple                           | Composed Tiruvempavai                          |
+| Person               | Sevappa Nayakar                  | Ruler (Nayakar dynasty)                     | Arunachalesvara Temple                           | Built eastern gopuram                          |
+| Dynasty              | Vijayanagara dynasty             | Dynasty                                      | Arunachalesvara Temple                           | Built thousand-pillared hall                    |
+| Organization         | Centre for Development of Advanced Computing (C-DAC) | Autonomous scientific society                 | Ministry of Electronics and Information Technology, Vijay Bhatkar | Operates under, Led by                          |
+| Organization         | Ministry of Electronics and Information Technology | Indian Ministry                           | Centre for Development of Advanced Computing (C-DAC) | Oversees C-DAC                               |
+| Person               | Vijay Bhatkar                    | Director of C-DACT                         | Centre for Development of Advanced Computing (C-DAC) | Led C-DAC                                   |
+| Event                | Development of PARAM 8000        | Supercomputer development project            | C-DAC, US Government                           | Response to US refusal to sell Cray supercomputer |
+| Organization         | US Government                    | Government                                   | C-DAC                                            | Refusal to sell Cray supercomputer              |
+| Artifact             | Cray supercomputer               | Supercomputer                               | US Government, C-DAC                             | Refusal to sell, Target of Indian development   |
+| Artifact             | PARAM 8000                      | Supercomputer                               | C-DAC                                            | Final product of development project            |
+| Event                | Columbian discovery of the New World | Historical event                            | Indian cuisine                                  | Introduction of new foods to India               |
+| Concept              | Indian cuisine                  | Variety of regional cuisines                | Hinduism, Islam, Europe, Middle East, etc.          | Influenced by, Influenced                                     |
+| Organization         | World Wildlife Fund (WWF)         | Organization                                  | None                                               | Released Living Planet Report                   |
+| Event                | Release of Living Planet Report  | Event                                       | World Wildlife Fund (WWF)                        | Released by WWF                                   |
+| Concept              | G20 countries                    | Group of countries                          | Indian food consumption pattern                  | Most sustainable food consumption among G20         |
+
+
+Note:  Some entities like ""Hinduism"" and ""Islam"" are implicit in the text description of Indian Cuisine and are included for completeness.  The relationships are simplified representations of the complex connections within the text.
+",PDF Upload
+2025-02-19 14:33:02,tell me about kadapa,"Based on the provided text, Kadapa is a Lok Sabha constituency from which Yeduguri Sandinti Rajasekhara Reddy (YSR) was elected four times (1989, 1991, 1996, and 1998).
+",PDF Upload
+2025-02-19 14:33:37,tell me about USA,"Based solely on the provided text, the only information about the USA is that in 1988, the US government refused to sell India a Cray supercomputer due to concerns about India using it to develop nuclear weapons.  This spurred India to develop its own supercomputer.
+",PDF Upload
+2025-02-19 14:34:08,tell me about virat kohli,"The provided text does not contain any information about Virat Kohli.
+",PDF Upload
+2025-02-19 14:36:29,tell about shivaji's family .,"Shivaji I belonged to the Bhonsle clan, a Maratha family. His father, Shahaji Bhonsle, was a Maratha general serving the Deccan Sultanates.  His mother was Jijabai, daughter of Lakhuji Jadhavrao of Sindhkhed, a Mughal-aligned sardar claiming Yadav descent from Devagiri. His paternal grandfather, Maloji (1552–1597), was an influential general of the Ahmadnagar Sultanate, titled ""Raja,"" and held deshmukhi rights in several areas.  Shivaji had at least four wives: Sai Bhonsale (died 1659), Soyarabai, Putalabai, and Sakvarbai, and Kashibai Jadhav. He had eight children, including Sambhaji and Rajaram I.  Shivaji's half-brother, Venkoji (Ekoji I), was Shahaji's son by his second wife, Tukabai (née Mohite), and ruled Thanjavur.
+",Web URL
