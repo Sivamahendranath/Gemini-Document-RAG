@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+pandas
+requests
+beautifulsoup4
+google-generativeai
+plotly
+reportlab
+python-dotenv
+theme-manager
