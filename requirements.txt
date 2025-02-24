@@ -4,4 +4,5 @@ google-generativeai
 plotly
 reportlab
 python-dotenv
+bs4
 theme-manager
