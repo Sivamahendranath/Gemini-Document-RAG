@@ -1,4 +1,5 @@
 streamlit
+pypdf2
 PyPDF2
 pandas
 requests
