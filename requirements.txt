@@ -1,9 +1,5 @@
 streamlit
-pypdf2
 PyPDF2
-pandas
-requests
-beautifulsoup4
 google-generativeai
 plotly
 reportlab
